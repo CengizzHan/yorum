@@ -4,7 +4,8 @@
  
  
 #Kopyalanacaklar ve Yapılacak cmd komutları
- 1-Veri tabanına tabloların eklenebilmesi için yorum/Migrations Klasörünün altındaki iki dosyayı "C:\xampp\htdocs\advanced\console\migrations" Klasörü altında atmanız gerekmektedir.Kopyaladıktan sonra yii migrate komutu ile gerekli veritabanlarının yüklenmesini sağlamalısınız.
+ 1-Veri tabanına tabloların eklenebilmesi için yorum/Migrations Klasörünün altındaki iki dosyayı "C:\xampp\htdocs\advanced\console\migrations" Klasörü altında atmanız gerekmektedir.Kopyaladıktan sonra advanced dizisine gelerek 
+ yii migrate cmd komutu ile gerekli veritabanlarının yüklenmesini sağlamalısınız.
  
  
  2-console/controllers altındak RbacController.php yi "C:\xampp\htdocs\advanced\console\controllers" dizine atmanız gerekmektedir.Common/rbac altındaki AuthorRule adlı php dosyasını "C:\xampp\htdocs\advanced\common\rbac" dizinine atmanız gerekmektedir.Eğer dizinler mevcut değilse lütfen oluşturunuz.
