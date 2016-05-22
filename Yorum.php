@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\yorum;
+namespace cengizzhan\yorum;
 
 class Yorum extends \yii\base\Module
 {
-    public $controllerNamespace = 'backend\modules\yorum\controllers';
+    public $controllerNamespace = 'cengizzhan\yorum\controllers';
 
     public function init()
     {
