@@ -1,5 +1,5 @@
 {
-    "name": "andakcengiz\yorum",
+    "name": "cengizzhan/yorum",
     "description": "Proje",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "yorum"],
@@ -16,7 +16,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "andakcengiz\\yorum\\": ""
+            "cengizzhan\\yorum\\": ""
         }
     }
 }
