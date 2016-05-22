@@ -1,12 +1,12 @@
 <?php
 
-namespace backend\modules\yorum\controllers;
+namespace cengizzhan\yorum\controllers;
 use yii\rest\ActiveController;
 class RestfulController extends ActiveController
 {
  
        
-		public $modelClass ='backend\modules\yorum\models\Tip';
+		public $modelClass ='cengizzhan\yorum\models\Tip';
    
 
 }
