@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\yorum\models\Tip;
+use cengizzhan\yorum\models\Tip;
 use yii\helpers\ArrayHelper;
  $types = ArrayHelper::map(Tip::find()->all(),'id','isim');
 /* @var $this yii\web\View */
