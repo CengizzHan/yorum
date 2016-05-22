@@ -1,11 +1,11 @@
 <?php
 
-namespace backend\modules\yorum\models;
+namespace cengizzhan\yorum\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\yorum\models\Tip;
+use cengizzhan\yorum\models\Tip;
 
 /**
  * TipSearch represents the model behind the search form about `backend\modules\yorum\models\Tip`.
