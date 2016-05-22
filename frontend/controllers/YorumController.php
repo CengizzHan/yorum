@@ -3,7 +3,7 @@
 namespace frontend\controllers;
 use yii\db\Query;
 use yii\data\ActiveDataProvider;
-use backend\modules\yorum\models\Yorum;
+use cengizzhan\yorum\models\Yorum;
 class YorumController extends \yii\web\Controller
 {
     public function actionIndex()
