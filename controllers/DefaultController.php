@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\yorum\controllers;
+namespace cengizzhan\yorum\controllers;
 
 use yii\web\Controller;
 
