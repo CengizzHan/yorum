@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\yorum\models;
+namespace cengizzhan\yorum\models;
 
 use Yii;
 
