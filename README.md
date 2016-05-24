@@ -11,7 +11,7 @@
  2-console/controllers altındak RbacController.php yi "C:\xampp\htdocs\advanced\console\controllers" dizine atmanız gerekmektedir.Common/rbac altındaki AuthorRule adlı php dosyasını "C:\xampp\htdocs\advanced\common\rbac" dizinine atmanız gerekmektedir.Eğer dizinler mevcut değilse lütfen oluşturunuz.
  
  
- 3-Kopyalamaları gerçekleştirdikten sonra advanced/common/config/main.php dosyanı metin düzenleyici bir editor yardımıyla açarak.
+ 3-Kopyalamaları gerçekleştirdikten sonra advanced/common/config/main.php dosyanı metin düzenleyici bir editor yardımıyla açarak.\n
  return [
     // ...
     'components' => [
