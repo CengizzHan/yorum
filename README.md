@@ -37,7 +37,7 @@ authmanager li kısmı components bölümüne ekleyiniz.
      "yiisoft/yii2": ">=2.0.6",.<br>
      "yiisoft/yii2-bootstrap": "",.<br>
      "yiisoft/yii2-swiftmailer": "",.<br>
-     "cengizzhan/yorum": "dev-master" // <b>Eklenen satır..<b><br>
+     "cengizzhan/yorum": "dev-master" // <b>Eklenen satır..</b><br>
      },.<br>
      "require-dev": {.<br>
      "yiisoft/yii2-codeception": "*",.<br>
