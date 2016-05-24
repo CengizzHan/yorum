@@ -27,20 +27,20 @@ authmanager li kısmı components bölümüne ekleyiniz.
 4-Cmd Ekranını açarak advanced dizinininde yii rbac/init ve ardından yii rbac/author-rule komutlarını çalıştırınız gerekli yetkilendirme hiyerarşisi kurulacaktır.(Eğer onceden DbManager ekli değilse yii migrate --migrationPath=@yii/rbac/migrations komutu ile aktif edilmesi gerekmektedir)
 
 5-Yinin kurulu olduğu dizine gelerek composer.json guncellenmesi gerekmektedir.
-.Composer.json..
-...
-"source": "https://github.com/yiisoft/yii2"
-},
-     "minimum-stability": "stable",
-     "require": {
-     "php": ">=5.4.0",
-     "yiisoft/yii2": ">=2.0.6",
-     "yiisoft/yii2-bootstrap": "",
-     "yiisoft/yii2-swiftmailer": "",
-     "cengizzhan/yorum": "dev-master" // Eklenen satır.
-     },
-     "require-dev": {
-     "yiisoft/yii2-codeception": "*",
+.Composer.json...<br>
+....<br>
+"source": "https://github.com/yiisoft/yii2".<br>
+},.<br>
+     "minimum-stability": "stable",.<br>
+     "require": {.<br>
+     "php": ">=5.4.0",.<br>
+     "yiisoft/yii2": ">=2.0.6",.<br>
+     "yiisoft/yii2-bootstrap": "",.<br>
+     "yiisoft/yii2-swiftmailer": "",.<br>
+     "cengizzhan/yorum": "dev-master" // Eklenen satır..<br>
+     },.<br>
+     "require-dev": {.<br>
+     "yiisoft/yii2-codeception": "*",.<br>
 
 
 6-Yukarıdaki işlemi tamamladıktan sonra Yii uygulamamızın dosya sistemimize uygun olması için Yii dizini içerisinde bulunan Backend>Config>Main-local.php dosyasını herhangi bir metin editörü ile açınız.
