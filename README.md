@@ -47,7 +47,7 @@ authmanager li kısmı components bölümüne ekleyiniz.
 .Main-local.php..
 ...
 'modules'=>[
-'sozluk'=>[
+'yorum'=>[
 'class' =>'cengizzhan\yorum\Yorum',
 ], 
 ],
