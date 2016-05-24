@@ -64,11 +64,11 @@ authmanager li kısmı components bölümüne ekleyiniz.
 Kurulum için Yii2.0'ın kurulu olduğu dizine komut satırında ulaşalım. Eğer daha önce kurulum yaptıksak önce composer clear-cache ile ön belleği temizleyelim. Eğer kurulum yapmadıysa veya ön bellek temizleme işlemini tamamladıysak composer update yardımıyla uygulama kurulumuna başlayabilirsiniz. Bu işlem 4-5 dakika sürmektedir.
 
 #Sonuçlar
-Proje içerisinde 2 tip kullanıcı mevcuttur:Admin ve Normal yazarlar(author)
-Admin Her türlü yetkiye sahiptir.
-Author Yorum ekleyebilir ve yalnızca kendi yapmış oldugu bir yorumu değiştirebilir.Kendi yorumunu silemez.
-Author sadece tip ekleyebilir herhangi bir guncelleme veya silme işlemi yapamaz.
-Eğer Tiplerde herhangi bir silme veya update işlemi gerçekleştirilirse aynı işlem yorumlardaki tipede uygulanır.Tip silinirse yorumda silinir
+Proje içerisinde 2 tip kullanıcı mevcuttur:Admin ve Normal yazarlar(author).<br>
+Admin Her türlü yetkiye sahiptir..<br>
+Author Yorum ekleyebilir ve yalnızca kendi yapmış oldugu bir yorumu değiştirebilir.Kendi yorumunu silemez..<br>
+Author sadece tip ekleyebilir herhangi bir guncelleme veya silme işlemi yapamaz..<br>
+Eğer Tiplerde herhangi bir silme veya update işlemi gerçekleştirilirse aynı işlem yorumlardaki tipede uygulanır..<br>Tip silinirse yorumda silinir
 
 
  
