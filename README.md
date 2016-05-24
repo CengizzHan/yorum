@@ -44,15 +44,15 @@ authmanager li kısmı components bölümüne ekleyiniz.
 
 
 6-Yukarıdaki işlemi tamamladıktan sonra Yii uygulamamızın dosya sistemimize uygun olması için Yii dizini içerisinde bulunan Backend>Config>Main-local.php dosyasını herhangi bir metin editörü ile açınız.
-.Main-local.php..
-...
-'modules'=>[
-'yorum'=>[
-'class' =>'cengizzhan\yorum\Yorum',
-], 
-],
-...
-...
+.Main-local.php...<br>
+....<br>
+'modules'=>[.<br>
+'yorum'=>[.<br>
+'class' =>'cengizzhan\yorum\Yorum',.<br>
+], .<br>
+],.<br>
+....<br>
+....<br>
 şeklinde ekleyiniz.
 
 
