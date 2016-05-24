@@ -11,7 +11,7 @@
  2-console/controllers altındak RbacController.php yi "C:\xampp\htdocs\advanced\console\controllers" dizine atmanız gerekmektedir.Common/rbac altındaki AuthorRule adlı php dosyasını "C:\xampp\htdocs\advanced\common\rbac" dizinine atmanız gerekmektedir.Eğer dizinler mevcut değilse lütfen oluşturunuz.
  
  
- 3-Kopyalamaları gerçekleştirdikten sonra advanced/common/config/main.php dosyanı metin düzenleyici bir editor yardımıyla açarak.\n
+ 3-Kopyalamaları gerçekleştirdikten sonra advanced/common/config/main.php dosyanı metin düzenleyici bir editor yardımıyla açarak.
  return [
     // ...
     'components' => [
@@ -31,16 +31,16 @@ authmanager li kısmı components bölümüne ekleyiniz.
 ...
 "source": "https://github.com/yiisoft/yii2"
 },
-"minimum-stability": "stable",
-"require": {
-"php": ">=5.4.0",
-"yiisoft/yii2": ">=2.0.6",
-"yiisoft/yii2-bootstrap": "",
-"yiisoft/yii2-swiftmailer": "",
-"cengizzhan/yorum": "dev-master" // Eklenen satır.
-},
-"require-dev": {
-"yiisoft/yii2-codeception": "*",
+     "minimum-stability": "stable",
+     "require": {
+     "php": ">=5.4.0",
+     "yiisoft/yii2": ">=2.0.6",
+     "yiisoft/yii2-bootstrap": "",
+     "yiisoft/yii2-swiftmailer": "",
+     "cengizzhan/yorum": "dev-master" // Eklenen satır.
+     },
+     "require-dev": {
+     "yiisoft/yii2-codeception": "*",
 
 
 6-Yukarıdaki işlemi tamamladıktan sonra Yii uygulamamızın dosya sistemimize uygun olması için Yii dizini içerisinde bulunan Backend>Config>Main-local.php dosyasını herhangi bir metin editörü ile açınız.
