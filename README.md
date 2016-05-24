@@ -12,15 +12,15 @@
  
  
  3-Kopyalamaları gerçekleştirdikten sonra advanced/common/config/main.php dosyanı metin düzenleyici bir editor yardımıyla açarak.
- return [
-    // ...
-    'components' => [
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager',
-        ],
-        // ...
-    ],
-];
+ return [<br>
+    .<br>// ...
+   .<br> 'components' => [
+     .<br>   'authManager' => [
+        .<br>    'class' => 'yii\rbac\DbManager',
+      .<br>  ],
+     .<br>   // ...
+  .<br>  ],
+.<br>];
 authmanager li kısmı components bölümüne ekleyiniz.
 
 
